@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 9px auto;
+  width:400px;
+}
+.events{display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 400;
+font-style: bold;
+font-size: 100px;
+
+}
+.box{
+  position:relative;
+  overflow: hidden;
+  height: auto;
+}
+ img{height: 300px;
+width: 400px;}
+.text{
+  position: absolute;
+  bottom: -300px;
+ 
+  background: grey;
+  width:400px; height: 300px;
+  text-align: center;
+  transition: 0.5s linear;
+}
+.text span{color:brown;}
+.box:hover .text{
+  bottom: 5px;
+  transition: 0.5s linear;
+}
+.x{padding: 8px 6px;
+
+margin: 3px;
+background-color:yellow;}
+
+    </style>
+</head>
+<body>
+  <div class="events"><h1>Events</h1></div><hr>
+    <div class="box">
+        <img src="hac.jpg">
+        <div class="text">
+          <br><br>
+          <h1>Hack<span>N</span>pitch</h1>
+         <br><br> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et d ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et ddolore magna aliqua.</p>
+          <button class="x"><a href="#">
+            Learn more</a>
+                    </button>   <button class="x"><a href="https://stackoverflow.com/questions/14984643/css-pick-a-random-color-from-array">
+                      Register</a>
+                              </button>  </div>
+      </div>
+      <div class="box">
+        <img src="inspira.jpg">
+        <div class="text">
+          <h1>Hack<span>N</span>pitch</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="x" ><a href="#">
+            Learn more</a>
+                    </button>  <button class="x"><a href="#">
+                      Register</a>
+                              </button>   </div>
+      </div>
+      <div class="box">
+        <img src="analyst.jpg">
+        <div class="text"><br><br>
+          <h1>Hack<span>N</span>pitch</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="x" ><a href="#">
+            Learn more</a>
+                    </button>   <button class="x"><a href="#">
+                      Register</a>
+                              </button>  </div>
+      </div>
+      <div class="box">
+        <img src="stocks.jpg">
+        <div class="text"><br><br>
+          <h1>Hack<span>N</span>pitch</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="x" ><a href="#">
+            Learn more</a>
+                    </button> 
+                    <button class="x"><a href="#">
+                      Register</a>
+                              </button> </div>
+      </div>
+      <div class="box">
+        <img src="design.jpg">
+        <div class="text"><br><br>
+          <h1>Hack<span>N</span>pitch</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="x"><a href="#">
+Learn more</a>
+        </button>
+        <button class="x"><a href="Register">
+          Learn more</a>
+                  </button></div>
+      </div>
+      <div class="box">
+        <img src="anal.jpg">
+        <div class="text"><br><br>
+          <h1>Hack<span>N</span>pitch</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="x" ><a href="#">
+            Learn more</a>
+                    </button>
+                    <button class="x"><a href="#">
+                     Register</a>
+                              </button> </div>
+      </div>
+    
+</body>
+</html>
